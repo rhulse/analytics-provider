@@ -1,6 +1,12 @@
 {
   "name": "analytics-provider",
-  "version": "0.3.0",
+  "description": "Analytics provider for javascript applications, includes Google Analytics.",
+  "keywords": [
+    "analytics",
+    "google analytics",
+    "single page applications"
+  ],
+  "version": "0.3.2",
   "source": "src/index.js",
   "main": "dist/index.js",
   "repository": "https://github.com/rhulse/analytics-provider.git",

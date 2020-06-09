@@ -2,11 +2,13 @@
 
 ## Overview
 
-Analytics Provider allows application actions and events to be sent to mulitple analyitcs providers without having to manually add mulitlple javascript trackers to your application.
+Analytics Provider allows application actions and events to be sent to mulitple analytics providers without having to manually add multiple javascript trackers to your application.
 
 A provider for Google Analytics is included as part of this package, with Elastic Stack (log stash) in development.
 
 The names of functions and data payloads are broadly modeled after Google's API, but can be extended as needed.
+
+This package was extracted out of the [Kiosk Application Framework](https://github.com/rhulse/kiosk-application-framework)
 
 ## Use
 
