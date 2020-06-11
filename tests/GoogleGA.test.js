@@ -34,6 +34,11 @@ describe("Google Analytics Provider", () => {
       document.body.appendChild(script);
     });
 
+    it("should not create window.ga", () => {
+      provider = new GoogleGa({ providerId: "" });
+      expect(window.ga).toEqual(undefined);
+    });
+
     it("should create window.ga", () => {
       provider = new GoogleGa({ providerId: "UA-XXXXX-X" });
       expect(window.ga).toEqual(expect.any(Function));
