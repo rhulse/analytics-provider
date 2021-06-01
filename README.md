@@ -86,6 +86,10 @@ The dispatcher always sends a pair of commands - setPage and pageView. setPage i
 
 It's also to allow other providers to register the current page context and handle that in their own way. For example, if you were sending analytics data to Elastic Stack, you might want to know on what page an event fired. Without setPage this infomation is not known.
 
+`event(eventData)`
+
+Sends an event.
+
 `timing(timingData)`
 
 Sends a timing event.
