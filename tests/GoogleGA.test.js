@@ -1,3 +1,7 @@
+/**
+ * @jest-environment jsdom
+ */
+
 import {
   SET_LANGUAGE,
   PAGE_VIEW,

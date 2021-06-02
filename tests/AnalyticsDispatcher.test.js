@@ -1,3 +1,7 @@
+/**
+ * @jest-environment jsdom
+ */
+
 import AnalyticsDispatcher from "../src/AnalyticsDispatcher";
 import Provider from "./MockProvider";
 import {
