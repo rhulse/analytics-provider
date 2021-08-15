@@ -6,7 +6,7 @@
     "google analytics",
     "single page applications"
   ],
-  "version": "0.3.2",
+  "version": "0.3.4",
   "source": "src/index.js",
   "main": "dist/index.js",
   "repository": "https://github.com/rhulse/analytics-provider.git",
